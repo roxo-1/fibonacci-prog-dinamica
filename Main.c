@@ -13,7 +13,7 @@ int F(int n) {
 }
 
 int main() {
-    int num = 10;
+    int num = 40;
     int resultado = F(num);
     printf("O resultado é: %d\n", resultado);
 
