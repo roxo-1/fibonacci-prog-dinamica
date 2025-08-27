@@ -1,1 +1,2 @@
-# fibonacci-prog-dinamica
+# Fibonacci
+Escreva um fibonacci dinâmico e o fibonacci normal, ambos recursivos. Para efeito de comparação crie contadores globais. Faça o fibonacci dinâmico usando memoização (utilize um vetor auxiliar global)
