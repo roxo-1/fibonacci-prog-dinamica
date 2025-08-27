@@ -21,22 +21,16 @@ int F_memo(int n) {
     
     // Calcula o valor, armazena no array e retorna
     memo[n] = F_memo(n - 1) + F_memo(n - 2);
-    
     return memo[n];
 }
 
 int main() {
     int num = 40;
-    
-    // Inicializa o array com zeros
     for (int i = 0; i < MAX; i++) {
         memo[i] = 0;
     }
-    
     int resultado = F_memo(num);
-    
     printf("O 40º termo de Fibonacci é: %d\n", resultado);
     printf("Número de chamadas da função: %lld\n", chamadas_memo);
-
     return 0;
 }
